@@ -1,6 +1,6 @@
 import javax.swing.*;
 
-public class JugadorForm {
+public class JugadorForm extends JFrame{
     private JPanel jugadorPanel;
     private JTextField nombreTextField;
     private JTextField apellidoTextField;
@@ -11,4 +11,14 @@ public class JugadorForm {
     private JButton agregarButton;
     private JButton mostrarButton;
     private JButton limpiarButton;
+
+    public JugadorForm(){
+        setTitle("Jugadores");
+        setContentPane(jugadorPanel);
+        setSize(600,400);
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setLocationRelativeTo(null);
+        setVisible(true);
+
+    }
 }

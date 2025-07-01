@@ -60,7 +60,7 @@
           <text value="Contraseña"/>
         </properties>
       </component>
-      <component id="1a966" class="javax.swing.JPasswordField" binding="passwordField">
+      <component id="1a966" class="javax.swing.JPasswordField" binding="contrasenaField">
         <constraints>
           <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -91,11 +91,16 @@
           <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
         </constraints>
       </vspacer>
-      <component id="fdc8d" class="javax.swing.JComboBox" binding="perfilComboBox">
+      <component id="fdc8d" class="javax.swing.JComboBox" binding="rolCombo">
         <constraints>
           <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
-        <properties/>
+        <properties>
+          <model>
+            <item value="Administrador"/>
+            <item value="Jugador"/>
+          </model>
+        </properties>
       </component>
     </children>
   </grid>
